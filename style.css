@@ -37,12 +37,7 @@
     height: 450px;
 }
 
-.content-box {
-    text-align: center;
-    line-height: 1.6;
-}
-
-.form-box {
+.contact-form {
     width: 300px;
     margin: auto;
 }

@@ -26,22 +26,40 @@
         --- CONTACT ---
     </h2>
 
-    <div class="form-box">
+    <form class="contact-form">
 
-        <label class="form-label">NAME :</label>
-        <input class="form-input" type="text">
+    <label class="form-label" for="name">
+        NAME :
+    </label>
 
-        <label class="form-label">EMAIL :</label>
-        <input class="form-input" type="email">
+    <input class="form-input"
+           type="text"
+           id="name"
+           name="name">
 
-        <label class="form-label">MESSAGE :</label>
-        <textarea class="form-textarea"></textarea>
+    <label class="form-label" for="email">
+        EMAIL :
+    </label>
 
-        <button class="send-button">
-            SEND
-        </button>
+    <input class="form-input"
+           type="email"
+           id="email"
+           name="email">
 
-    </div>
+    <label class="form-label" for="message">
+        MESSAGE :
+    </label>
+
+    <textarea class="form-textarea"
+              id="message"
+              name="message"></textarea>
+
+    <button class="send-button"
+            type="submit">
+        SEND
+    </button>
+
+</form>
 
     <hr>
 
